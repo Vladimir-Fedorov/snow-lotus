@@ -36,7 +36,8 @@
 .navbar
   display: flex
   align-items: center
-  justify-content: space-between
+  justify-content: space-around
+  z-index: 100
   &-menu
     display: flex
     align-items: center
@@ -68,3 +69,23 @@
     &:hover
       cursor: pointer
       background-color: #009999
+  &:before
+    content: ''
+    position: absolute
+    background-color: #66cccc
+    background-repeat: no-repeat
+    left: 0
+    right: 90%
+    height: 45px
+    border-radius: 0 0 2000px 10px
+    z-index: -1
+  &:after
+    content: ''
+    position: absolute
+    background-color: #66cccc
+    background-repeat: no-repeat
+    right: 0
+    left: 90%
+    height: 45px
+    border-radius: 2000px 10px 0 0
+    z-index: -1
