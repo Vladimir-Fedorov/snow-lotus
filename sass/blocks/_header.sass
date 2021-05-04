@@ -12,12 +12,58 @@
     margin: 0
     margin-left: -13%
     text-transform: uppercase
-  &__social
+  &-social
     width: 25px
     height: 25px
     margin-top: 34px
     margin-left: 100%
     transform: translateX(-100%)
+    background-color: transparent
+    border: none
+    cursor: pointer
+    position: relative
+    &__burger
+      position: absolute
+      display: block
+      top: 50%
+      margin-top: -1px
+      left: 50%
+      margin-left: -10px
+      width: 20px
+      height: 2px
+      background-color: $brown
+      &::before
+        content: ''
+        position: absolute
+        display: block
+        top: 50%
+        margin-top: -1px
+        left: 50%
+        margin-left: -10px
+        width: 20px
+        height: 2px
+        background-color: $brown
+        transition: 0.3s
+        transform: translateY(-5px)
+      &::after
+        content: ''
+        position: absolute
+        display: block
+        top: 50%
+        margin-top: -1px
+        left: 50%
+        margin-left: -10px
+        width: 20px
+        height: 2px
+        background-color: $brown
+        transition: 0.3s
+        transform: translateY(5px)
+      &_active
+        height: 0
+        &::before
+          transform: rotate(-45deg)
+        &::after
+          transform: rotate(45deg)
 .contacts
   display: flex
   flex-direction: column
