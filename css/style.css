@@ -396,20 +396,26 @@ body {
   text-transform: uppercase;
 }
 
-.header-social {
+.social {
+  position: relative;
+}
+
+.social-button {
   width: 25px;
   height: 25px;
   margin-top: 34px;
   margin-left: 100%;
+  border-radius: 50%;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
-  background-color: transparent;
+  background-color: #f4f5f5;
   border: none;
   cursor: pointer;
   position: relative;
+  z-index: 3;
 }
 
-.header-social__burger {
+.social-button__burger {
   position: absolute;
   display: block;
   top: 50%;
@@ -421,7 +427,7 @@ body {
   background-color: #513a36;
 }
 
-.header-social__burger::before {
+.social-button__burger::before {
   content: '';
   position: absolute;
   display: block;
@@ -438,7 +444,7 @@ body {
           transform: translateY(-5px);
 }
 
-.header-social__burger::after {
+.social-button__burger::after {
   content: '';
   position: absolute;
   display: block;
@@ -455,18 +461,76 @@ body {
           transform: translateY(5px);
 }
 
-.header-social__burger_active {
+.social-button__burger_active {
   height: 0;
 }
 
-.header-social__burger_active::before {
+.social-button__burger_active::before {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
 
-.header-social__burger_active::after {
+.social-button__burger_active::after {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+}
+
+.social-nav {
+  position: absolute;
+  top: calc(100% - 24px);
+  left: calc(100% - 24px);
+}
+
+.social-nav__link {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 23px;
+  height: 23px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.social-nav__link:nth-child(1) {
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.social-nav__link:nth-child(2) {
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+.social-nav__link:nth-child(3) {
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.social-nav__link_active:nth-child(1) {
+  -webkit-transform: translate(-150%, 0);
+          transform: translate(-150%, 0);
+}
+
+.social-nav__link_active:nth-child(2) {
+  -webkit-transform: translate(-100%, 100%);
+          transform: translate(-100%, 100%);
+}
+
+.social-nav__link_active:nth-child(3) {
+  -webkit-transform: translate(0%, 150%);
+          transform: translate(0%, 150%);
+}
+
+.social-nav__icon {
+  width: 100%;
+  height: 100%;
 }
 
 .contacts {
