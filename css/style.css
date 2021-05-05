@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Calibri';
   src: url("../fonts/Calibri-Regular.woff") format("woff");
@@ -651,5 +652,86 @@ body {
   height: 45px;
   border-radius: 2000px 10px 0 0;
   z-index: -1;
+}
+
+.news {
+  padding: 100px 0 100px;
+}
+
+.news-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news-wrapper-text {
+  background-color: #ebecec;
+  border-left: 2px solid #66cccc;
+  border-bottom: 2px solid #66cccc;
+  height: 350px;
+  z-index: -2;
+}
+
+.news-text {
+  width: 300px;
+  height: 270px;
+}
+
+.news-photo {
+  width: 600px;
+  height: 400px;
+  margin: 0;
+  border: 2px solid #66cccc;
+  position: relative;
+}
+
+.news__title {
+  font-size: 32px;
+  line-height: 36px;
+  margin: 0;
+  padding: 20px 82px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #66cccc;
+  color: #fff;
+  position: relative;
+}
+
+.news__title::before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 76px;
+  width: 300%;
+  top: 0;
+  right: 0;
+  background-color: #66cccc;
+  z-index: -1;
+}
+
+.news__text {
+  font-size: 22px;
+  line-height: 20px;
+  margin: 0;
+  padding: 30px 39px 63px 30px;
+}
+
+.news-button_next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/стрелочка.png);
+  background-repeat: no-repeat;
+  z-index: 3;
 }
 /*# sourceMappingURL=style.css.map */

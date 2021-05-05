@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Снежный лотос</title>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -65,7 +66,45 @@
 
   <section class="news">
     <div class="container">
-      
+      <div class="news-wrapper">
+        <div class="news-wrapper-text">
+          <h2 class="news__title">Новости</h2>
+          <div class="swiper-container news-slider news-text">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <p class="news__text">1 Lorem ipsum dolor sit amet et delectus accommodare his consul copiosaeLorem ipsum dolor
+                  sit amet et delectus accommodare his consul copiosaeLorem ipsum dolor sit amet</p>
+              </div>
+              <div class="swiper-slide">
+                <p class="news__text">2 Lorem ipsum dolor sit amet et delectus accommodare his consul copiosaeLorem ipsum dolor
+                  sit amet et delectus
+                  accommodare his consul copiosaeLorem ipsum dolor sit amet</p>
+              </div>
+              <div class="swiper-slide">
+                <p class="news__text">3 Lorem ipsum dolor sit amet et delectus accommodare his consul copiosaeLorem ipsum dolor
+                  sit amet et delectus
+                  accommodare his consul copiosaeLorem ipsum dolor sit amet</p>
+              </div>
+              <!--/.swiper-wrapper-->
+            </div>
+          </div>
+          <!--/.swiper-container news-slider-->
+        </div>
+        <!-- /.news-wrapper-text -->
+        <div class="swiper-container news-slider news-photo">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img class="swiper-slide__item" src="img/Новость1.jpg" alt="Фотография: Новость"></div>
+            <div class="swiper-slide"><img class="swiper-slide__item"  src="img/Новость1.jpg" alt="Фотография: Новость"></div>
+            <div class="swiper-slide"><img class="swiper-slide__item" src="img/Новость1.jpg" alt="Фотография: Новость"></div>
+          </div>
+          <!--/.swiper-wrapper-->
+          <div class="news-button_next"></div>
+        </div>
+        <!--/.swiper-container news-slider-->
+      </div>
+      <!-- /.news-wrapper -->
     </div>
     <!-- /.container -->
   </section>
@@ -95,6 +134,7 @@
   <!-- /.footer -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
