@@ -394,6 +394,7 @@ body {
   margin: 0;
   margin-left: -13%;
   text-transform: uppercase;
+  font-weight: normal;
 }
 
 .social {
