@@ -4,6 +4,7 @@
     display: flex
     justify-content: center
     align-items: center
+    position: relative
     &-text
       background-color: #ebecec
       border-left: 2px solid #66cccc
@@ -18,7 +19,6 @@
     height: 400px
     margin: 0
     border: 2px solid #66cccc
-    position: relative
   &__title
     font-size: 32px
     line-height: 36px
@@ -48,8 +48,8 @@
     &_next
       position: absolute
       top: 50%
-      right: 0
-      transform: translate(50%, -50%)
+      transform: translateY(-50%)
+      right: calc((100% - 945px) / 2)
       width: 40px
       height: 40px
       background-image: url(../img/стрелочка.png)
