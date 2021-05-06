@@ -754,6 +754,10 @@ body {
   cursor: pointer;
 }
 
+.advantages {
+  position: relative;
+}
+
 .advantages__title {
   text-align: center;
 }
@@ -812,5 +816,19 @@ body {
 .advantages__img {
   width: 100px;
   margin-right: 42px;
+}
+
+.advantages::before {
+  content: '';
+  position: absolute;
+  top: -53%;
+  left: calc(-10% - 1000px);
+  width: 2300px;
+  height: 200%;
+  background-image: url(../img/Мандала.jpg);
+  background-repeat: no-repeat;
+  filter: alpha(Opacity=40);
+  opacity: 0.4;
+  z-index: -10;
 }
 /*# sourceMappingURL=style.css.map */
