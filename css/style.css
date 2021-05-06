@@ -920,4 +920,56 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+
+.map {
+  padding: 100px 0;
+}
+
+.map-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.map-wrapper-text {
+  background-color: #ebecec;
+  border-left: 2px solid #66cccc;
+  border-bottom: 2px solid #66cccc;
+  height: 350px;
+  margin: 0;
+}
+
+.map__title {
+  position: relative;
+  padding: 20px 40px;
+}
+
+.map__title::before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 76px;
+  width: 300%;
+  top: 0;
+  right: 0;
+  background-color: #66cccc;
+  z-index: -1;
+}
+
+.map__text {
+  max-width: 300px;
+  padding: 75px 15px;
+}
+
+.map__geo {
+  width: 600px;
+  height: 400px;
+  border: 2px solid #66cccc;
+}
 /*# sourceMappingURL=style.css.map */
