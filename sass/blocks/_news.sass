@@ -10,7 +10,6 @@
       border-left: 2px solid #66cccc
       border-bottom: 2px solid #66cccc
       height: 350px
-      z-index: -2
   &-text
     width: 300px
     height: 270px
@@ -43,7 +42,18 @@
     font-size: 22px
     line-height: 20px
     margin: 0
+    max-width: 300px
+    max-height: 192px
+    overflow: hidden
     padding: 30px 39px 63px 30px
+  &__link
+    display: block
+    text-align: right
+    text-decoration: none
+    color: #009999
+    font-size: 22px
+    line-height: 20px
+    padding: 30px 39px 0 30px
   &-button
     &_next
       position: absolute

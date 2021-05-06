@@ -5,6 +5,7 @@ $('.social-button').on('click', function(e) {
 });
 var mySwiper = new Swiper('.news-slider', {
   loop: true,
+  simulateTouch: false,
   navigation: {
     nextEl: '.news-button_next',
   },
