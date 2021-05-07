@@ -10,3 +10,4 @@ var mySwiper = new Swiper('.news-slider', {
     nextEl: '.news-button_next',
   },
 });
+AOS.init();
