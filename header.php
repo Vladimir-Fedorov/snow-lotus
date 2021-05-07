@@ -42,20 +42,20 @@
       <div class="navbar">
         <ul class="navbar-menu">
           <li class="navbar-menu__item">
-            <a href="#" class="navbar-menu__link">О клубе</a>
+            <a href="about-the-club.php" class="navbar-menu__link">О клубе</a>
           </li>
           <li class="navbar-menu__item">
-            <a href="#" class="navbar-menu__link">Расписание</a>
+            <a href="schedule.php" class="navbar-menu__link">Расписание</a>
           </li>
           <li class="navbar-menu__item">
-            <a href="#" class="navbar-menu__link">Стоимость занятий</a>
+            <a href="price.php" class="navbar-menu__link">Стоимость занятий</a>
           </li>
           <li class="navbar-menu__item">
-            <a href="#" class="navbar-menu__link">Преподаватели</a>
+            <a href="teacher.php" class="navbar-menu__link">Преподаватели</a>
           </li>
         </ul>
         <button class="navbar__button">
-          Учебный центр
+          <a href="the-educational-center.php" class="navbar-menu__link">Учебный центр</a>
         </button>
       </div>
       <!-- /.navbar -->

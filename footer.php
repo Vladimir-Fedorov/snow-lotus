@@ -26,19 +26,19 @@
       <nav class="footer-menu">
         <ul class="footer-nav">
           <li class="footer-nav__item">
-            <a href="#" class="footer-nav__link">О клубе</a>
+            <a href="about-the-club.php" class="footer-nav__link">О клубе</a>
           </li>
           <li class="footer-nav__item">
-            <a href="#" class="footer-nav__link">Расписание</a>
+            <a href="schedule.php" class="footer-nav__link">Расписание</a>
           </li>
           <li class="footer-nav__item">
-            <a href="#" class="footer-nav__link">Стоимость занятий</a>
+            <a href="price.php" class="footer-nav__link">Стоимость занятий</a>
           </li>
           <li class="footer-nav__item">
-            <a href="#" class="footer-nav__link">Преподаватели</a>
+            <a href="teacher.php" class="footer-nav__link">Преподаватели</a>
           </li>
           <li class="footer-nav__item">
-            <a href="#" class="footer-nav__link">Учебный центр</a>
+            <a href="the-educational-center.php" class="footer-nav__link">Учебный центр</a>
           </li>
         </ul>
       </nav>
