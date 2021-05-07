@@ -429,6 +429,7 @@ body {
           transform: translateX(-100%);
   background-color: #f4f5f5;
   border: none;
+  outline: none;
   cursor: pointer;
   position: relative;
   z-index: 3;
@@ -763,16 +764,16 @@ body {
 }
 
 .advantages-wrapper {
-  padding: 100px 0;
+  padding: 50px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -1064,7 +1065,7 @@ body {
   max-width: 50px;
   -o-object-fit: cover;
      object-fit: cover;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
