@@ -617,27 +617,28 @@ body {
 }
 
 .navbar-menu__item {
-  padding: 10px 45px;
   background-color: #66cccc;
   border-radius: 2000px 10px;
 }
 
-.navbar-menu__item:hover {
-  cursor: pointer;
-  background-color: #009999;
-}
-
 .navbar-menu__link {
+  display: block;
+  padding: 10px 45px;
+  border-radius: 2000px 10px;
   text-decoration: none;
   font-size: 22px;
   color: #fff;
+}
+
+.navbar-menu__link:hover {
+  cursor: pointer;
+  background-color: #009999;
 }
 
 .navbar__button {
   text-decoration: none;
   font-size: 22px;
   color: #fff;
-  padding: 10px 45px;
   background-color: #ff6600;
   border: none;
   border-radius: 2000px 10px;
