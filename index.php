@@ -115,7 +115,7 @@
           <form class="register-form" action="send.php" method="POST">
             <input type="text" class="register-form__input" placeholder="Ваше имя*" name="name">
             <input type="text" class="register-form__input" placeholder="Телефон*" name="phone">
-            <button class="register-form__button">Записаться на занятие</button>
+            <button class="button register-form__button">Записаться на занятие</button>
           </form>
         </div>
         <!-- /.register-wrapper -->
