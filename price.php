@@ -29,6 +29,20 @@
           <!-- /.card-body -->
         </div>
         <!-- /.card -->
+        <div class="card">
+          <h2 class="card-header__title">Индивидуальное занятие</h2>
+          <span class="card-header__price">2000 Р</span>
+          <div class="card-body">
+            <ul class="card-list">
+              <li class="card-list__item">Стоимость указана за полуторачасовое занятие</li>
+              <li class="card-list__item">Не распространяются скидки клуба</li>
+            </ul>
+            <!-- /.card-list -->
+            <button class="button card-body__button">Записаться на занятие</button>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
       </div>
       <!-- /.price-wrapper -->
     </div>
