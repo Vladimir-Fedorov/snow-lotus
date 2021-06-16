@@ -1,2 +1,78 @@
-h2
-  font-size: 10px
+.price
+  &-wrapper
+    padding: 100px 0
+    display: flex
+    justify-content: space-between
+    align-items: stretch
+    flex-wrap: wrap
+    &::before
+      content: ''
+      position: absolute
+      top: 25%
+      left: calc(-10% - 1000px)
+      width: 2300px
+      height: 1500px
+      background-image: url(../img/Мандала.jpg)
+      background-repeat: no-repeat
+      filter: alpha(Opacity=40)
+      opacity: 0.4
+      z-index: -10
+.card
+  width: 28%
+  border: 2px solid #66cccc
+  margin-bottom: 100px
+  &_d
+    border: 2px solid #999999
+  &-header
+    &__title
+      font-size: 22px
+      font-weight: bold
+      padding: 28px 0
+      margin: 0
+      color: #ff6600
+      background-color: #ebecec
+      text-align: center
+      &_d
+        color: #fff
+        background-color: #66cccc
+    &__price
+      font-size: 33px
+      font-weight: bold
+      padding: 28px 0
+      margin: 0
+      display: block
+      text-align: center
+      background-color: #66cccc
+      color: #fff
+      &_d
+        background-color: #fff
+        color: #ff6600
+  &-body
+    padding: 30px
+    display: flex
+    flex-direction: column
+    align-items: center
+    background-color: #ebecec
+    &__button
+      padding: 15px 27px
+    &_d
+      background-color: #66cccc
+  &-list
+    align-items: center
+    margin: 0
+    padding-left: 20px
+    padding-bottom: 16px
+    line-height: 1.5
+    &__item
+      font-size: 20px
+      list-style-type: none
+      position: relative
+      &:before
+        content: ''
+        position: absolute
+        display: block
+        left: -30px
+        top: 6px
+        width: 18px
+        height: 18px
+        background: url('../img/ul.png') center (center / cover) no-repeat
