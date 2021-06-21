@@ -1120,6 +1120,7 @@ body {
 
 .card {
   width: 28%;
+  height: 456px;
   border: 2px solid #66cccc;
   margin-bottom: 100px;
   position: relative;
@@ -1193,6 +1194,10 @@ body {
   padding-left: 20px;
   padding-bottom: 16px;
   line-height: 1.5;
+}
+
+.card-list_pb45 {
+  padding-bottom: 45px;
 }
 
 .card-list__item {
