@@ -3,6 +3,11 @@ $('.social-button').on('click', function(e) {
   $('.social-button__burger').toggleClass('social-button__burger_active');
   $('.social-nav__link').toggleClass('social-nav__link_active');
 });
+$('.card-body__button').on('click', function(e) {
+  e.preventDefault();
+  $('.card-front').toggleClass('card-front_active');
+  $('.card-back').toggleClass('card-back_active');
+});
 var mySwiper = new Swiper('.news-slider', {
   loop: true,
   simulateTouch: false,

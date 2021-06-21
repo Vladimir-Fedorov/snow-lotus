@@ -391,6 +391,23 @@ body {
   margin: 0;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+  background-color: #66cccc;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff6600;
+  border-radius: 9em;
+  -webkit-box-shadow: inset 1px 1px 10px #fff;
+          box-shadow: inset 1px 1px 10px #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #66cccc;
+}
+
 .header-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1105,6 +1122,9 @@ body {
   width: 28%;
   border: 2px solid #66cccc;
   margin-bottom: 100px;
+  position: relative;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
 }
 
 .card_d {
@@ -1190,5 +1210,42 @@ body {
   width: 18px;
   height: 18px;
   background: url("../img/ul.png") center center/cover no-repeat;
+}
+
+.card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.card-front_active {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  overflow-y: scroll;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.card-back_active {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 /*# sourceMappingURL=style.css.map */

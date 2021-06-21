@@ -3,16 +3,20 @@
     <div class="container">
       <div class="price-wrapper">
         <div class="card">
-          <h3 class="card-header__title">Пробное занятие</h3>
-          <span class="card-header__price">200 Р</span>
-          <div class="card-body" style="height: 228px">
-            <ul class="card-list">
-              <li class="card-list__item">Только для новых посетителей клуба</li>
-            </ul>
-            <!-- /.card-list -->
-            <button class="button card-body__button">Записаться на занятие</button>
+          <div class="card-front">
+            <h3 class="card-header__title">Пробное занятие</h3>
+            <span class="card-header__price">200 Р</span>
+            <div class="card-body" style="height: 228px">
+              <ul class="card-list">
+                <li class="card-list__item">Только для новых посетителей клуба</li>
+                <li class="card-list__item">Можно использовать только один раз</li>
+              </ul>
+              <!-- /.card-list -->
+              <button class="button card-body__button">Записаться на занятие</button>
+            </div>
+            <!-- /.card-body -->
           </div>
-          <!-- /.card-body -->
+          <!-- /.card-front -->
         </div>
         <!-- /.card -->
         <div class="card card_d">
@@ -44,20 +48,39 @@
         </div>
         <!-- /.card -->
         <div class="card">
-          <h3 class="card-header__title card-header__title_d">Абонементы<br>Хатха-йога</h3>
-          <div class="card-body">
-            <ul class="card-list">
-              <li class="card-list__item">4 занятия – 1600Р</li>
-              <li class="card-list__item">6 занятий – 2100Р</li>
-              <li class="card-list__item">8 занятий – 2400Р</li>
-              <li class="card-list__item">10 занятий – 2800Р</li>
-              <li class="card-list__item">12 занятий – 3200Р</li>
-              <li class="card-list__item">20 занятий – 5000Р</li>
-            </ul>
-            <!-- /.card-list -->
-            <button class="button card-body__button">Правила использования</button>
+          <div class="card-front">
+            <h3 class="card-header__title card-header__title_d">Абонементы<br>Хатха-йога</h3>
+            <div class="card-body">
+              <ul class="card-list">
+                <li class="card-list__item">4 занятия – 1600Р</li>
+                <li class="card-list__item">6 занятий – 2100Р</li>
+                <li class="card-list__item">8 занятий – 2400Р</li>
+                <li class="card-list__item">10 занятий – 2800Р</li>
+                <li class="card-list__item">12 занятий – 3200Р</li>
+                <li class="card-list__item">20 занятий – 5000Р</li>
+              </ul>
+              <!-- /.card-list -->
+              <button class="button card-body__button">Правила использования</button>
+            </div>
+            <!-- /.card-body -->
           </div>
-          <!-- /.card-body -->
+          <!-- /.card-front -->
+          <div class="card-back">
+            <h3 class="card-header__title card-header__title_d">Правила<br>Хатха-йога</h3>
+            <div class="card-body">
+              <ul class="card-list">
+                <li class="card-list__item">по данным абонементам вы можете посещать занятия любых преподавателей по направлению хатха-йога</li>
+                <li class="card-list__item">по абонементу может ходить только один человек, исключением является абонемент на 20 занятий</li>
+                <li class="card-list__item">все абонементы действуют 30 дней со дня активации</li>
+                <li class="card-list__item">все абонементы необходимо активировать в течение 3 месяцев со дня покупки</li>
+                <li class="card-list__item">на все абонементы, кроме абонемента на 20 занятий, действуют «семейная» и «пенсионная» скидки 5%</li>
+              </ul>
+              <!-- /.card-list -->
+              <button class="button card-body__button">Стоимость абонемента</button>
+            </div>
+            <!-- /.card-body -->
+          </div>
+          <!-- /.card-back -->
         </div>
         <!-- /.card -->
         <div class="card card_d">
