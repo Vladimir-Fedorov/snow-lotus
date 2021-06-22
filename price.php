@@ -5,7 +5,7 @@
         <div class="card">
           <h3 class="card-header__title">Пробное занятие</h3>
           <span class="card-header__price">200 Р</span>
-          <div class="card-body" style="height: 228px">
+          <div class="card-body">
             <ul class="card-list card-list_pb45">
               <li class="card-list__item">Только для новых посетителей клуба</li>
               <li class="card-list__item">Можно использовать только один раз</li>
@@ -33,7 +33,7 @@
         <div class="card">
           <h3 class="card-header__title">Индивидуальное занятие</h3>
           <span class="card-header__price">2000 Р</span>
-          <div class="card-body" style="height: 228px">
+          <div class="card-body">
             <ul class="card-list card-list_pb45">
               <li class="card-list__item">Стоимость указана за полуторачасовое занятие</li>
               <li class="card-list__item">Не распространяются скидки клуба</li>
@@ -48,7 +48,7 @@
           <div class="card-front card-front_1">
             <h3 class="card-header__title card-header__title_d">Абонементы<br>Хатха-йога</h3>
             <div class="card-body">
-              <ul class="card-list card-list_pb45">
+              <ul class="card-list card-list_pb54">
                 <li class="card-list__item">4 занятия – 1600Р</li>
                 <li class="card-list__item">6 занятий – 2100Р</li>
                 <li class="card-list__item">8 занятий – 2400Р</li>
@@ -84,7 +84,7 @@
           <div class="card-front card-front_2">
             <h3 class="card-header__title">Абонементы<br>Айенгар-йога</h3>
             <div class="card-body card-body_d">
-              <ul class="card-list card-list_pb45">
+              <ul class="card-list card-list_pb54">
                 <li class="card-list__item">4 занятия – 1800Р</li>
                 <li class="card-list__item">6 занятий – 2400Р</li>
                 <li class="card-list__item">8 занятий – 2800Р</li>
@@ -120,7 +120,7 @@
           <div class="card-front card-front_3">
             <h3 class="card-header__title card-header__title_d">Абонементы<br>Смешанные направления</h3>
             <div class="card-body">
-              <ul class="card-list card-list_pb45">
+              <ul class="card-list card-list_pb54">
                 <li class="card-list__item">4 занятия – 1700Р</li>
                 <li class="card-list__item">6 занятий – 2200Р</li>
                 <li class="card-list__item">8 занятий – 2600Р</li>
