@@ -80,7 +80,7 @@
           <!-- /.card-back -->
         </div>
         <!-- /.card -->
-        <div class="card card_d">
+        <div class="card">
           <div class="card-front card-front_2">
             <h3 class="card-header__title">Абонементы<br>Айенгар-йога</h3>
             <div class="card-body card-body_d">

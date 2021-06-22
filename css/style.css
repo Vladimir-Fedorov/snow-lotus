@@ -1213,25 +1213,22 @@ body {
 .card {
   width: 28%;
   height: 456px;
-  border: 2px solid #66cccc;
   margin-bottom: 100px;
   position: relative;
   -webkit-perspective: 1000px;
           perspective: 1000px;
 }
 
-.card_d {
-  border: 2px solid #999999;
-}
-
 .card_light {
   -webkit-box-shadow: -30px 30px rgba(102, 204, 204, 0.5);
           box-shadow: -30px 30px rgba(102, 204, 204, 0.5);
+  border: 2px solid #66cccc;
 }
 
 .card_dark {
   -webkit-box-shadow: -30px 30px rgba(153, 153, 153, 0.5);
           box-shadow: -30px 30px rgba(153, 153, 153, 0.5);
+  border: 2px solid #999999;
 }
 
 .card-header__title {
@@ -1343,11 +1340,13 @@ body {
 .card-front_1, .card-front_3 {
   -webkit-box-shadow: -30px 30px rgba(102, 204, 204, 0.5);
           box-shadow: -30px 30px rgba(102, 204, 204, 0.5);
+  border: 2px solid #66cccc;
 }
 
 .card-front_2 {
   -webkit-box-shadow: -30px 30px rgba(153, 153, 153, 0.5);
           box-shadow: -30px 30px rgba(153, 153, 153, 0.5);
+  border: 2px solid #999999;
 }
 
 .card-back {
@@ -1373,10 +1372,12 @@ body {
 .card-back_1, .card-back_3 {
   -webkit-box-shadow: -30px 30px rgba(102, 204, 204, 0.5);
           box-shadow: -30px 30px rgba(102, 204, 204, 0.5);
+  border: 2px solid #66cccc;
 }
 
 .card-back_2 {
   -webkit-box-shadow: -30px 30px rgba(153, 153, 153, 0.5);
           box-shadow: -30px 30px rgba(153, 153, 153, 0.5);
+  border: 2px solid #999999;
 }
 /*# sourceMappingURL=style.css.map */
