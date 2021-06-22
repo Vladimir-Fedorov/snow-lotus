@@ -26,6 +26,10 @@
   perspective: 1000px
   &_d
     border: 2px solid #999999
+  &_light
+    box-shadow: -30px 30px rgba(102, 204, 204, 0.5)
+  &_dark
+    box-shadow: -30px 30px rgba(153, 153, 153, 0.5)
   &-header
     &__title
       font-size: 22px
@@ -93,6 +97,10 @@
     backface-visibility: hidden
     &_active
       transform: rotateY(180deg)
+    &_1, &_3
+      box-shadow: -30px 30px rgba(102, 204, 204, 0.5)
+    &_2
+      box-shadow: -30px 30px rgba(153, 153, 153, 0.5)
   &-back
     position: absolute
     width: 100%
@@ -105,3 +113,7 @@
     backface-visibility: hidden
     &_active
       transform: rotate(360deg)
+    &_1, &_3
+      box-shadow: -30px 30px rgba(102, 204, 204, 0.5)
+    &_2
+      box-shadow: -30px 30px rgba(153, 153, 153, 0.5)

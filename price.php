@@ -2,7 +2,7 @@
   <sectioin class="price">
     <div class="container">
       <div class="price-wrapper">
-        <div class="card">
+        <div class="card card_light">
           <h3 class="card-header__title">Пробное занятие</h3>
           <span class="card-header__price">200 Р</span>
           <div class="card-body">
@@ -16,7 +16,7 @@
           <!-- /.card-body -->
         </div>
         <!-- /.card -->
-        <div class="card card_d">
+        <div class="card card_d card_dark">
           <h3 class="card-header__title card-header__title_d">Разовое занятие</h3>
           <span class="card-header__price card-header__price_d">500 Р</span>
           <div class="card-body card-body_d">
@@ -30,7 +30,7 @@
           <!-- /.card-body -->
         </div>
         <!-- /.card -->
-        <div class="card">
+        <div class="card card_light">
           <h3 class="card-header__title">Индивидуальное занятие</h3>
           <span class="card-header__price">2000 Р</span>
           <div class="card-body">
