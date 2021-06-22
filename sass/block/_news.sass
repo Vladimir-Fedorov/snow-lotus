@@ -1,0 +1,57 @@
+.news
+  padding: 100px 0 100px
+  &-wrapper
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    &-text
+      background-color: #ebecec
+      border-left: 2px solid #66cccc
+      border-bottom: 2px solid #66cccc
+      height: 350px
+  &-text
+    width: 300px
+    height: 270px
+  &-photo
+    width: 600px
+    height: 400px
+    margin: 0
+    border: 2px solid #66cccc
+  &__title
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      display: block
+      height: 76px
+      width: 300%
+      top: 0
+      right: 0
+      background-color: #66cccc
+      z-index: -1
+  &__text
+    max-width: 300px
+    max-height: 192px
+    overflow: hidden
+    padding: 30px 39px 63px 30px
+  &__link
+    display: block
+    text-align: right
+    text-decoration: none
+    color: #009999
+    font-size: 22px
+    line-height: 20px
+    padding: 30px 39px 0 30px
+  &-button
+    &_next
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      right: calc((100% - 945px) / 2)
+      width: 40px
+      height: 40px
+      background-image: url(../img/стрелочка.png)
+      background-repeat: no-repeat
+      z-index: 1
+      cursor: pointer

@@ -1,0 +1,42 @@
+.advantages
+  position: relative
+  &__title
+    text-align: center
+  &-wrapper
+    padding: 50px 0
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    flex-wrap: wrap
+  &-block
+    display: flex
+    justify-content: center
+    align-items: flex-start
+    width: 46%
+    padding-bottom: 37px
+    &__word
+      display: flex
+      flex-direction: column
+    &__title
+      font-size: 32px
+      line-height: 38px
+      margin: 0
+      font-weight: normal
+      padding-bottom: 14px
+    &__text
+      line-height: 24px
+  &__img
+    width: 100px
+    margin-right: 42px
+  &::before
+    content: ''
+    position: absolute
+    top: -70%
+    left: calc(-10% - 1000px)
+    width: 2300px
+    height: 2300px
+    background-image: url(../img/Мандала.jpg)
+    background-repeat: no-repeat
+    filter: alpha(Opacity=40)
+    opacity: 0.4
+    z-index: -10

@@ -1,0 +1,32 @@
+.map
+  padding: 100px 0
+  &-wrapper
+    display: flex
+    justify-content: center
+    align-items: center
+    &-text
+      background-color: #ebecec
+      border-left: 2px solid #66cccc
+      border-bottom: 2px solid #66cccc
+      height: 350px
+      margin: 0
+  &__title
+    position: relative
+    padding: 20px 40px
+    &::before
+      content: ''
+      position: absolute
+      display: block
+      height: 76px
+      width: 300%
+      top: 0
+      right: 0
+      background-color: #66cccc
+      z-index: -1
+  &__text
+    max-width: 300px
+    padding: 75px 15px
+  &__geo
+    width: 600px
+    height: 400px
+    border: 2px solid #66cccc

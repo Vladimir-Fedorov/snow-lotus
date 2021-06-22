@@ -11,7 +11,7 @@
               <li class="card-list__item">Можно использовать только один раз</li>
             </ul>
             <!-- /.card-list -->
-            <button class="button card-body__button">Записаться на занятие</button>
+            <button data-toggle="modal" class="button card-body__button">Записаться на занятие</button>
           </div>
           <!-- /.card-body -->
         </div>
@@ -25,7 +25,7 @@
               <li class="card-list__item">Не распространяются скидки клуба</li>
             </ul>
             <!-- /.card-list -->
-            <button class="button card-body__button">Записаться на занятие</button>
+            <button data-toggle="modal" class="button card-body__button">Записаться на занятие</button>
           </div>
           <!-- /.card-body -->
         </div>
@@ -39,7 +39,7 @@
               <li class="card-list__item">Не распространяются скидки клуба</li>
             </ul>
             <!-- /.card-list -->
-            <button class="button card-body__button">Записаться на занятие</button>
+            <button data-toggle="modal" class="button card-body__button">Записаться на занятие</button>
           </div>
           <!-- /.card-body -->
         </div>
@@ -66,11 +66,11 @@
             <h3 class="card-header__title card-header__title_d">Правила<br>Хатха-йога</h3>
             <div class="card-body">
               <ul class="card-list">
-                <li class="card-list__item">по данным абонементам вы можете посещать занятия любых преподавателей по направлению хатха-йога</li>
-                <li class="card-list__item">по абонементу может ходить только один человек, исключением является абонемент на 20 занятий</li>
-                <li class="card-list__item">все абонементы действуют 30 дней со дня активации</li>
-                <li class="card-list__item">все абонементы необходимо активировать в течение 3 месяцев со дня покупки</li>
-                <li class="card-list__item">на все абонементы, кроме абонемента на 20 занятий, действуют «семейная» и «пенсионная» скидки 5%</li>
+                <li class="card-list__item">По данным абонементам вы можете посещать занятия любых преподавателей по направлению хатха-йога</li>
+                <li class="card-list__item">По абонементу может ходить только один человек, исключением является абонемент на 20 занятий</li>
+                <li class="card-list__item">Все абонементы действуют 30 дней со дня активации</li>
+                <li class="card-list__item">Все абонементы необходимо активировать в течение 3 месяцев со дня покупки</li>
+                <li class="card-list__item">На все абонементы, кроме абонемента на 20 занятий, действуют «семейная» и «пенсионная» скидки 5%</li>
               </ul>
               <!-- /.card-list -->
               <button class="button card-body__button card-body__button_1">Стоимость абонемента</button>
@@ -102,11 +102,11 @@
             <h3 class="card-header__title card-header__title">Правила<br>Айенгар-йога</h3>
             <div class="card-body card-body_d">
               <ul class="card-list">
-                <li class="card-list__item">по данным абонементам вы можете посещать занятия любых преподавателей по направлению айенгар-йога</li>
-                <li class="card-list__item">по абонементу может ходить только один человек, исключением является абонемент на 20 занятий</li>
-                <li class="card-list__item">все абонементы действуют 30 дней со дня активации</li>
-                <li class="card-list__item">все абонементы необходимо активировать в течение 3 месяцев со дня покупки</li>
-                <li class="card-list__item">на все абонементы, кроме абонемента на 20 занятий, действуют «семейная» и «пенсионная» скидки 5%</li>
+                <li class="card-list__item">По данным абонементам вы можете посещать занятия любых преподавателей по направлению айенгар-йога</li>
+                <li class="card-list__item">По абонементу может ходить только один человек, исключением является абонемент на 20 занятий</li>
+                <li class="card-list__item">Все абонементы действуют 30 дней со дня активации</li>
+                <li class="card-list__item">Все абонементы необходимо активировать в течение 3 месяцев со дня покупки</li>
+                <li class="card-list__item">На все абонементы, кроме абонемента на 20 занятий, действуют «семейная» и «пенсионная» скидки 5%</li>
               </ul>
               <!-- /.card-list -->
               <button class="button card-body__button card-body__button_2">Стоимость абонемента</button>
@@ -138,11 +138,11 @@
             <h3 class="card-header__title card-header__title_d">Правила<br>Смешанные направления</h3>
             <div class="card-body">
               <ul class="card-list">
-                <li class="card-list__item">по данным абонементам вы можете посещать занятия по разным направлениям в равном количестве</li>
-                <li class="card-list__item">по абонементу может ходить только один человек, исключением является абонемент на 20 занятий</li>
-                <li class="card-list__item">все абонементы действуют 30 дней со дня активации</li>
-                <li class="card-list__item">все абонементы необходимо активировать в течение 3 месяцев со дня покупки</li>
-                <li class="card-list__item">на все абонементы, кроме абонемента на 20 занятий, действуют «семейная» и «пенсионная» скидки 5%</li>
+                <li class="card-list__item">По данным абонементам вы можете посещать занятия по разным направлениям в равном количестве</li>
+                <li class="card-list__item">По абонементу может ходить только один человек, исключением является абонемент на 20 занятий</li>
+                <li class="card-list__item">Все абонементы действуют 30 дней со дня активации</li>
+                <li class="card-list__item">Все абонементы необходимо активировать в течение 3 месяцев со дня покупки</li>
+                <li class="card-list__item">На все абонементы, кроме абонемента на 20 занятий, действуют «семейная» и «пенсионная» скидки 5%</li>
               </ul>
               <!-- /.card-list -->
               <button class="button card-body__button card-body__button_3">Стоимость абонемента</button>
@@ -158,4 +158,5 @@
     <!-- /.container -->
   </sectioin>
   <!-- /.price -->
+<?php include('modal.php')?>
 <?php include('footer.php')?>
