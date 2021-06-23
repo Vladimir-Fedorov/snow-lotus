@@ -29,13 +29,13 @@
             <a href="about-the-club.php" class="footer-nav__link">О клубе</a>
           </li>
           <li class="footer-nav__item">
-            <a href="schedule.php" class="footer-nav__link">Расписание</a>
+            <a href="timetable.php" class="footer-nav__link">Расписание</a>
           </li>
           <li class="footer-nav__item">
             <a href="price.php" class="footer-nav__link">Стоимость занятий</a>
           </li>
           <li class="footer-nav__item">
-            <a href="teacher.php" class="footer-nav__link">Преподаватели</a>
+            <a href="teachers.php" class="footer-nav__link">Преподаватели</a>
           </li>
           <li class="footer-nav__item">
             <a href="the-educational-center.php" class="footer-nav__link">Учебный центр</a>

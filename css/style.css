@@ -1380,4 +1380,8 @@ body {
           box-shadow: -30px 30px rgba(153, 153, 153, 0.5);
   border: 2px solid #999999;
 }
+
+.timetable {
+  padding: 100px 0;
+}
 /*# sourceMappingURL=style.css.map */

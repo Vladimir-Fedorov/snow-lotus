@@ -45,13 +45,13 @@
             <a href="about-the-club.php" class="navbar-menu__link">О клубе</a>
           </li>
           <li class="navbar-menu__item">
-            <a href="schedule.php" class="navbar-menu__link">Расписание</a>
+            <a href="timetable.php" class="navbar-menu__link">Расписание</a>
           </li>
           <li class="navbar-menu__item">
             <a href="price.php" class="navbar-menu__link">Стоимость занятий</a>
           </li>
           <li class="navbar-menu__item">
-            <a href="teacher.php" class="navbar-menu__link">Преподаватели</a>
+            <a href="teachers.php" class="navbar-menu__link">Преподаватели</a>
           </li>
         </ul>
         <button class="navbar__button">
