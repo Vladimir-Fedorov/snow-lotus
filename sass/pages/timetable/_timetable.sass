@@ -1,2 +1,79 @@
 .timetable
-  padding: 100px 0
+  position: relative
+  &-wrapper
+    margin: 100px 0 300px
+    box-shadow: -60px 30px rgba(102, 204, 204, 0.7)
+  &-tabs
+    display: flex
+    list-style: none
+    margin: 0
+    padding: 0
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      display: block
+      height: 50px
+      width: 300%
+      top: 0
+      right: 0
+      background-color: #66cccc
+      z-index: -1
+    &__item
+      font-weight: bold
+      font-size: 26px
+      line-height: 28px
+      color: #fff
+      background-color: #66cccc
+      cursor: pointer
+      padding: 10px 66px
+      border-left: 3px solid #009999
+      &_active, &:hover
+        background-color: #009999
+      &:first-child
+        border-left: none
+  &-content
+    margin: 0
+    padding: 0
+    list-style: none
+    border: 2px solid #66cccc
+    border-top: none
+    &__item
+      display: none
+      &_active
+        display: block
+  &::before
+    content: ''
+    position: absolute
+    top: -40%
+    left: calc(-10% - 1200px)
+    width: 2300px
+    height: 810px
+    background-image: url(../img/Мандала.jpg)
+    background-repeat: no-repeat
+    filter: alpha(Opacity=40)
+    opacity: 0.4
+    z-index: -10
+.events
+  max-width: 1138px
+.event
+  background-color: #fff
+  border-top: 2px solid #009999
+  &:nth-child(even)
+    background-color: #66cccc
+  &-list
+    display: grid
+    grid-template-columns: 125px 121px 126px 200px 285px
+    grid-gap: 70px
+    align-items: center
+    list-style: none
+    padding: 15px 0
+    &__text
+      font-size: 22px
+      line-height: 24px
+      color: #44211d
+      &:nth-child(1)
+        padding-left: 15px
+      &:nth-child(5)
+        color: #ff6600
+        padding-right: 10px

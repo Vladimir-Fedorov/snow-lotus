@@ -1,3 +1,15 @@
+var tabsItem = $(".timetable-tabs__item");
+var contentItem = $(".timetable-content__item");
+
+tabsItem.on('click', function (event) {
+  var activContent = $(this).attr('data-target');
+  contentItem.removeClass('timetable-content__item_active');
+  tabsItem.removeClass('timetable-tabs__item_active');
+  $(activContent).addClass('timetable-content__item_active');
+  $(this).addClass('timetable-tabs__item_active');
+});
+
+
 var modalButton = $('[data-toggle="modal"]');
 var closeModalButton = $(".modal__close");
 modalButton.on('click', openModal);

@@ -1382,6 +1382,124 @@ body {
 }
 
 .timetable {
-  padding: 100px 0;
+  position: relative;
+}
+
+.timetable-wrapper {
+  margin: 100px 0 300px;
+  -webkit-box-shadow: -60px 30px rgba(102, 204, 204, 0.7);
+          box-shadow: -60px 30px rgba(102, 204, 204, 0.7);
+}
+
+.timetable-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.timetable-tabs::before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 50px;
+  width: 300%;
+  top: 0;
+  right: 0;
+  background-color: #66cccc;
+  z-index: -1;
+}
+
+.timetable-tabs__item {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 28px;
+  color: #fff;
+  background-color: #66cccc;
+  cursor: pointer;
+  padding: 10px 66px;
+  border-left: 3px solid #009999;
+}
+
+.timetable-tabs__item_active, .timetable-tabs__item:hover {
+  background-color: #009999;
+}
+
+.timetable-tabs__item:first-child {
+  border-left: none;
+}
+
+.timetable-content {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 2px solid #66cccc;
+  border-top: none;
+}
+
+.timetable-content__item {
+  display: none;
+}
+
+.timetable-content__item_active {
+  display: block;
+}
+
+.timetable::before {
+  content: '';
+  position: absolute;
+  top: -40%;
+  left: calc(-10% - 1200px);
+  width: 2300px;
+  height: 810px;
+  background-image: url(../img/Мандала.jpg);
+  background-repeat: no-repeat;
+  filter: alpha(Opacity=40);
+  opacity: 0.4;
+  z-index: -10;
+}
+
+.events {
+  max-width: 1138px;
+}
+
+.event {
+  background-color: #fff;
+  border-top: 2px solid #009999;
+}
+
+.event:nth-child(even) {
+  background-color: #66cccc;
+}
+
+.event-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 125px 121px 126px 200px 285px;
+      grid-template-columns: 125px 121px 126px 200px 285px;
+  grid-gap: 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 15px 0;
+}
+
+.event-list__text {
+  font-size: 22px;
+  line-height: 24px;
+  color: #44211d;
+}
+
+.event-list__text:nth-child(1) {
+  padding-left: 15px;
+}
+
+.event-list__text:nth-child(5) {
+  color: #ff6600;
+  padding-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */
