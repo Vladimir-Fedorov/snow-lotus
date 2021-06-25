@@ -1503,4 +1503,32 @@ body {
   color: #ff6600;
   padding-right: 10px;
 }
+
+.atc {
+  padding-bottom: 500px;
+}
+
+.atc-slider {
+  width: 800px;
+  height: 400px;
+  margin: auto;
+}
+
+.atc-slider__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: #66cccc;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff6600;
+}
 /*# sourceMappingURL=style.css.map */

@@ -62,3 +62,12 @@ var mySwiper = new Swiper('.news-slider', {
   },
 });
 AOS.init();
+
+var mySwiper = new Swiper('.atc-slider', {
+  loop: true,
+  simulateTouch: false,
+  pagination: {
+    el: '.atc-pagination',
+  },
+});
+AOS.init();
