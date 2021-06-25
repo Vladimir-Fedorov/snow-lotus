@@ -30,7 +30,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">09:00-10:30</li>
-                  <li class="event-list__text">Большой зал</li>
+                  <li class="event-list__text">Малый зал</li>
                   <li class="event-list__text">Айенгар-йога</li>
                   <li class="event-list__text">Людмила Тасун</li>
                   <li class="event-list__text"></li>
@@ -40,7 +40,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">12:10-13:40</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Хатха-йога</li>
                   <li class="event-list__text">Светлана Уфимцева</li>
                   <li class="event-list__text">По предварительной записи</li>
@@ -50,7 +50,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">18:00-19:30</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Айенгар-йога</li>
                   <li class="event-list__text">Мария Жулковская</li>
                   <li class="event-list__text"></li>
@@ -60,7 +60,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">19:40-21:10</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Хатха-йога</li>
                   <li class="event-list__text">Светлана Уфимцева</li>
                   <li class="event-list__text"></li>
@@ -70,7 +70,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">20:00-21:30</li>
-                  <li class="event-list__text">Большой зал</li>
+                  <li class="event-list__text">Малый зал</li>
                   <li class="event-list__text">Хатха-йога</li>
                   <li class="event-list__text">Евгений Шестаков</li>
                   <li class="event-list__text">По предварительной записи</li>
@@ -85,7 +85,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">09:30-11:00</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Айенгар-йога</li>
                   <li class="event-list__text">Мария Жулковская</li>
                   <li class="event-list__text"></li>
@@ -95,7 +95,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">15:00-16:30</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Йога для начинающих</li>
                   <li class="event-list__text">Маргарита Зинченко</li>
                   <li class="event-list__text">По предварительной записи</li>
@@ -105,7 +105,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">17:30-19:00</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Айенгар-йога</li>
                   <li class="event-list__text">Анна Розенберг</li>
                   <li class="event-list__text"></li>
@@ -115,7 +115,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">19:15-20:45</li>
-                  <li class="event-list__text">Большой зал</li>
+                  <li class="event-list__text">Малый зал</li>
                   <li class="event-list__text">Айенгар-йога</li>
                   <li class="event-list__text">Елена Берсенева</li>
                   <li class="event-list__text"></li>
@@ -125,7 +125,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">19:15-20:45</li>
-                  <li class="event-list__text">Большой зал</li>
+                  <li class="event-list__text">Малый зал</li>
                   <li class="event-list__text">Хатха-йога</li>
                   <li class="event-list__text">Дмитрий Коробин</li>
                   <li class="event-list__text">По предварительной записи</li>
@@ -140,7 +140,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">07:00-08:30</li>
-                  <li class="event-list__text">Большой зал</li>
+                  <li class="event-list__text">Малый зал</li>
                   <li class="event-list__text">Хатха-йога</li>
                   <li class="event-list__text">Евгений Шестаков</li>
                   <li class="event-list__text">По предварительной записи</li>
@@ -150,7 +150,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">09:00-10:30</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Айенгар-йога</li>
                   <li class="event-list__text">Людмила Тасун</li>
                   <li class="event-list__text"></li>
@@ -160,7 +160,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">12:10-13:40</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Хатха-йога</li>
                   <li class="event-list__text">Светлана Уфимцева</li>
                   <li class="event-list__text">По предварительной записи</li>
@@ -170,7 +170,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">18:00-19:30</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Айенгар-йога</li>
                   <li class="event-list__text">Людмила Тасун</li>
                   <li class="event-list__text"></li>
@@ -180,7 +180,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">19:40-21:10</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Хатха-йога</li>
                   <li class="event-list__text">Светлана Уфимцева</li>
                   <li class="event-list__text"></li>
@@ -190,7 +190,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">20:00-21:30</li>
-                  <li class="event-list__text">Большой зал</li>
+                  <li class="event-list__text">Малый зал</li>
                   <li class="event-list__text">Хатха-йога</li>
                   <li class="event-list__text">Евгений Шестаков</li>
                   <li class="event-list__text">По предварительной записи</li>
@@ -205,7 +205,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">09:30-11:00</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Айенгар-йога</li>
                   <li class="event-list__text">Мария Жулковская</li>
                   <li class="event-list__text"></li>
@@ -215,7 +215,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">15:00-16:30</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Йога с нуля</li>
                   <li class="event-list__text">Маргарита Зинченко</li>
                   <li class="event-list__text">Начальный</li>
@@ -225,7 +225,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">17:30-19:00</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Айенгар-йога</li>
                   <li class="event-list__text">Анна Розенберг</li>
                   <li class="event-list__text"></li>
@@ -235,7 +235,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">19:15-20:45</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Айенгар-йога</li>
                   <li class="event-list__text">Елена Берсенева</li>
                   <li class="event-list__text"></li>
@@ -245,7 +245,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">19:15-20:45</li>
-                  <li class="event-list__text">Большой зал</li>
+                  <li class="event-list__text">Малый зал</li>
                   <li class="event-list__text">Хатха-йога</li>
                   <li class="event-list__text">Дмитрий Коробин</li>
                   <li class="event-list__text">По предварительной записи</li>
@@ -260,7 +260,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">07:00-08:30</li>
-                  <li class="event-list__text">Большой зал</li>
+                  <li class="event-list__text">Малый зал</li>
                   <li class="event-list__text">Хатха-йога</li>
                   <li class="event-list__text">Евгений Шестаков</li>
                   <li class="event-list__text">По предварительной записи</li>
@@ -270,7 +270,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">09:00-10:30</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Айенгар-йога</li>
                   <li class="event-list__text">Людмила Тасун</li>
                   <li class="event-list__text"></li>
@@ -280,7 +280,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">18:00-19:30</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Айенгар-йога</li>
                   <li class="event-list__text">Мария Жулковская</li>
                   <li class="event-list__text"></li>
@@ -290,7 +290,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">19:40-21:10</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Хатха-йога</li>
                   <li class="event-list__text">Светлана Уфимцева</li>
                   <li class="event-list__text"></li>
@@ -300,7 +300,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">20:00-21:30</li>
-                  <li class="event-list__text">Большой зал</li>
+                  <li class="event-list__text">Малый зал</li>
                   <li class="event-list__text">Хатха-йога</li>
                   <li class="event-list__text">Евгений Шестаков</li>
                   <li class="event-list__text">По предварительной записи</li>
@@ -315,7 +315,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">12:00-13:30</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Здоровая спина</li>
                   <li class="event-list__text">Людмила Тасун</li>
                   <li class="event-list__text"></li>
@@ -330,7 +330,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">10:00-11:30</li>
-                  <li class="event-list__text">Большой зал</li>
+                  <li class="event-list__text">Малый зал</li>
                   <li class="event-list__text">Хатха-йога</li>
                   <li class="event-list__text">Светлана Уфимцева</li>
                   <li class="event-list__text"></li>
@@ -340,7 +340,7 @@
               <div class="event">
                 <ul class="event-list">
                   <li class="event-list__text">11:10-12:40</li>
-                  <li class="event-list__text">Малый зал</li>
+                  <li class="event-list__text">Большой зал</li>
                   <li class="event-list__text">Здоровая спина</li>
                   <li class="event-list__text">Анна Розенберг</li>
                   <li class="event-list__text"></li>
