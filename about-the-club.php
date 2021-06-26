@@ -48,4 +48,24 @@
     <!-- /.container -->
   </section>
   <!-- /.preview -->
+  <section class="circs">
+    <h2 class="title circs__title">Мы создали все условия, чтобы вы могли<br> заниматься йогой с удовольствием</h2>
+    <div class="container">
+      <div class="circs-wrapper">
+        <ul class="circs-list">
+          <li class="circs-list__item">Самый большой зал в Новосибирске – 220 кв.м.</li>
+          <li class="circs-list__item">Коврики и оборудование для йоги</li>
+          <li class="circs-list__item">Группы для начинающих и продвинутых йогов</li>
+          <li class="circs-list__item">Сертифицированные преподаватели</li>
+          <li class="circs-list__item">Уютная чайная зона и расслабляющий восточный колорит</li>
+          <li class="circs-list__item">Удобные раздевалки и мини-сауны</li>
+        </ul>
+        <!-- /.circs-list --> 
+      </div>
+      <!-- /.circs-wrapper -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.circs -->
+
 <?php include('footer.php')?>

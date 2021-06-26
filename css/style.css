@@ -1566,4 +1566,57 @@ body {
 .swiper-pagination-bullet-active {
   background-color: #ff6600;
 }
+
+.circs__title {
+  text-align: center;
+  background-color: #ff6600;
+}
+
+.circs-wrapper {
+  padding: 100px 0;
+}
+
+.circs-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 25%;
+  left: calc(-10% - 1000px);
+  width: 2300px;
+  height: 1500px;
+  background-image: url(../img/Мандала.jpg);
+  background-repeat: no-repeat;
+  filter: alpha(Opacity=40);
+  opacity: 0.4;
+  z-index: -10;
+}
+
+.circs-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  line-height: 2;
+}
+
+.circs-list__item {
+  font-size: 20px;
+  list-style: none;
+  min-width: 320px;
+  position: relative;
+}
+
+.circs-list__item:before {
+  content: '';
+  position: absolute;
+  display: block;
+  left: -30px;
+  top: 12px;
+  width: 18px;
+  height: 18px;
+  background: url("../img/ul.png") center center/cover no-repeat;
+}
 /*# sourceMappingURL=style.css.map */

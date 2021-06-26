@@ -1,0 +1,37 @@
+.circs
+  &__title
+    text-align: center
+    background-color: #ff6600
+  &-wrapper
+    padding: 100px 0
+    &::before
+      content: ''
+      position: absolute
+      top: 25%
+      left: calc(-10% - 1000px)
+      width: 2300px
+      height: 1500px
+      background-image: url(../img/Мандала.jpg)
+      background-repeat: no-repeat
+      filter: alpha(Opacity=40)
+      opacity: 0.4
+      z-index: -10
+  &-list
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    line-height: 2
+    &__item
+      font-size: 20px
+      list-style: none
+      min-width: 320px
+      position: relative
+      &:before
+        content: ''
+        position: absolute
+        display: block
+        left: -30px
+        top: 12px
+        width: 18px
+        height: 18px
+        background: url('../img/ul.png') center (center / cover) no-repeat
