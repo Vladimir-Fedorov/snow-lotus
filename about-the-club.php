@@ -48,8 +48,4 @@
     <!-- /.container -->
   </section>
   <!-- /.preview -->
-
-
-
-  <h2 class="title">Мы создали все условия, чтобы вы могли<br> заниматься йогой с удовольствием</h2>
 <?php include('footer.php')?>
