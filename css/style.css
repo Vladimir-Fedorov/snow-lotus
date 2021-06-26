@@ -367,6 +367,8 @@ body {
   font-family: 'Calibri', sans-serif;
   background-color: #f4f5f5;
   color: #48302c;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .container {
@@ -1582,7 +1584,7 @@ body {
   top: 25%;
   left: calc(-10% - 1000px);
   width: 2300px;
-  height: 1500px;
+  height: 2500px;
   background-image: url(../img/Мандала.jpg);
   background-repeat: no-repeat;
   filter: alpha(Opacity=40);
@@ -1618,5 +1620,213 @@ body {
   width: 18px;
   height: 18px;
   background: url("../img/ul.png") center center/cover no-repeat;
+}
+
+.route__title {
+  text-align: center;
+}
+
+.route-wrapper {
+  padding: 100px 0;
+}
+
+.route__button {
+  margin: auto;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.route__link {
+  text-decoration: none;
+  color: inherit;
+  padding: 20px 20px;
+}
+
+.hatha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.hatha__title {
+  position: relative;
+  border-radius: 2000px 10px;
+  background-color: #009999;
+}
+
+.hatha__title::before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 76px;
+  width: 300%;
+  top: 0;
+  right: 0;
+  background-color: #66cccc;
+  z-index: -1;
+}
+
+.hatha-contents {
+  width: calc( 100% - 330px);
+  height: 400px;
+  background-color: #ebecec;
+  border: 2px solid #66cccc;
+  padding: 26px 40px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.hatha-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.hatha-tabs__item {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 28px;
+  color: #66cccc;
+  cursor: pointer;
+}
+
+.hatha-tabs__item_active, .hatha-tabs__item:hover {
+  color: #009999;
+  border-bottom: 2px solid #009999;
+}
+
+.hatha-tabs__item:first-child {
+  border-left: none;
+}
+
+.hatha-content {
+  margin: 0;
+  padding: 25px 10px;
+  list-style: none;
+}
+
+.hatha-content__item {
+  display: none;
+  font-size: 22px;
+  line-height: 24px;
+  height: 270px;
+  overflow-y: scroll;
+}
+
+.hatha-content__item_active {
+  display: block;
+}
+
+.hatha-content__text {
+  margin: 0;
+  margin-bottom: 15px;
+  padding-right: 10px;
+}
+
+.aiengar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.aiengar__title {
+  border-radius: 2000px 10px;
+  padding: 20px 63px;
+  background-color: #009999;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  position: relative;
+}
+
+.aiengar__title::before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 76px;
+  width: 300%;
+  top: 0;
+  left: 0;
+  background-color: #66cccc;
+  z-index: -1;
+}
+
+.aiengar-contents {
+  width: calc( 100% - 330px);
+  height: 400px;
+  background-color: #ebecec;
+  border: 2px solid #66cccc;
+  padding: 26px 40px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.aiengar-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.aiengar-tabs__item {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 28px;
+  color: #66cccc;
+  cursor: pointer;
+}
+
+.aiengar-tabs__item_active, .aiengar-tabs__item:hover {
+  color: #009999;
+  border-bottom: 2px solid #009999;
+}
+
+.aiengar-tabs__item:first-child {
+  border-left: none;
+}
+
+.aiengar-content {
+  margin: 0;
+  padding: 25px 10px;
+  list-style: none;
+}
+
+.aiengar-content__item {
+  display: none;
+  font-size: 22px;
+  line-height: 24px;
+  height: 270px;
+  overflow-y: scroll;
+}
+
+.aiengar-content__item_active {
+  display: block;
+}
+
+.aiengar-content__text {
+  margin: 0;
+  margin-bottom: 15px;
+  padding-right: 10px;
 }
 /*# sourceMappingURL=style.css.map */

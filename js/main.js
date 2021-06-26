@@ -10,6 +10,29 @@ tabsItem.on('click', function (event) {
 });
 
 
+var tabsItemH = $(".hatha-tabs__item");
+var contentItemH = $(".hatha-content__item");
+
+tabsItemH.on('click', function (event) {
+  var activContent = $(this).attr('data-target');
+  contentItemH.removeClass('hatha-content__item_active');
+  tabsItemH.removeClass('hatha-tabs__item_active');
+  $(activContent).addClass('hatha-content__item_active');
+  $(this).addClass('hatha-tabs__item_active');
+});
+
+var tabsItemA = $(".aiengar-tabs__item");
+var contentItemA = $(".aiengar-content__item");
+
+tabsItemA.on('click', function (event) {
+  var activContent = $(this).attr('data-target');
+  contentItemA.removeClass('aiengar-content__item_active');
+  tabsItemA.removeClass('aiengar-tabs__item_active');
+  $(activContent).addClass('aiengar-content__item_active');
+  $(this).addClass('aiengar-tabs__item_active');
+});
+
+
 var modalButton = $('[data-toggle="modal"]');
 var closeModalButton = $(".modal__close");
 modalButton.on('click', openModal);
@@ -61,7 +84,7 @@ var newsSwiper = new Swiper('.news-slider', {
     nextEl: '.news-button_next',
   },
 });
-AOS.init();
+
 var atcSwiper = new Swiper('.preview-slider', {
   loop: false,
   simulateTouch: true,
@@ -70,4 +93,5 @@ var atcSwiper = new Swiper('.preview-slider', {
     dynamicBullets: true,
     el: '.preview-pagination',
   },
-}); 
+});
+AOS.init();
