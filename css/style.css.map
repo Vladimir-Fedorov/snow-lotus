@@ -16,7 +16,7 @@
         "../sass/pages/index/_map.sass",
         "../sass/pages/price/_card.sass",
         "../sass/pages/timetable/_timetable.sass",
-        "../sass/pages/atc/_atc.sass"
+        "../sass/pages/atc/_preview.sass"
     ],
     "names": [],
     "file": "style.css"
