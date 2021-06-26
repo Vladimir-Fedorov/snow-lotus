@@ -54,7 +54,7 @@ $('.card-body__button_3').on('click', function(e) {
   $('.card-back_3').toggleClass('card-back_active');
 });
 
-var mySwiper = new Swiper('.news-slider', {
+var newsSwiper = new Swiper('.news-slider', {
   loop: true,
   simulateTouch: false,
   navigation: {
@@ -62,12 +62,12 @@ var mySwiper = new Swiper('.news-slider', {
   },
 });
 AOS.init();
-
-var mySwiper = new Swiper('.atc-slider', {
-  loop: true,
-  simulateTouch: false,
+var atcSwiper = new Swiper('.preview-slider', {
+  loop: false,
+  simulateTouch: true,
   pagination: {
-    el: '.atc-pagination',
+    clickable: true,
+    dynamicBullets: true,
+    el: '.preview-pagination',
   },
-});
-AOS.init();
+}); 

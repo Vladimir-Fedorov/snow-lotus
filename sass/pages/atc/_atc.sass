@@ -1,11 +1,37 @@
-.atc
-  padding-bottom: 500px
+.preview
+  padding: 100px 0
+  &-wrapper
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      display: block
+      height: 76px
+      width: 300%
+      top: 20px
+      right: calc(100% / 2)
+      background-color: #66cccc
   &-slider
     width: 800px
-    height: 400px
+    height: 500px
     margin: auto
-    &__img
-      object-fit: cover
+    box-shadow: -60px 30px rgba(102, 204, 204, 0.8)
+  &-slide
+    width: 100%
+    height: 100%
+    object-fit: cover
+    &__item
+      position: relative
+    &__caption
+      position: absolute
+      right: 10px
+      bottom: 10px
+      font-size: 32px
+      line-height: 38px
+      padding: 0 5px
+      color: #fff
+      background-color: rgba(102, 204, 204, 0.3)
+      border-radius: 10px
 .swiper
   &-pagination
     &-bullet
