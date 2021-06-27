@@ -49,6 +49,7 @@
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/aos.js"></script>
+  <script src="js/teacher-tabs.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

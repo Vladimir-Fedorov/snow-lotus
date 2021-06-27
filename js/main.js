@@ -53,6 +53,8 @@ function closeModal(event) {
   modalDialog.removeClass('modal__dialog_active');
 };
 
+
+
 $('.social-button').on('click', function (e) {
   e.preventDefault();
   $('.social-button__burger').toggleClass('social-button__burger_active');

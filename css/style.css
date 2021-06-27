@@ -1829,4 +1829,157 @@ body {
   margin-bottom: 15px;
   padding-right: 10px;
 }
+
+.teachers {
+  padding: 100px 0;
+}
+
+.teachers::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: calc(-10% - 1000px);
+  width: 2300px;
+  height: 2300px;
+  background-image: url(../img/Мандала.jpg);
+  background-repeat: no-repeat;
+  filter: alpha(Opacity=40);
+  opacity: 0.4;
+  z-index: -10;
+}
+
+.teachers-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 300%;
+  right: calc(-10% - 1000px);
+  width: 2300px;
+  height: 2300px;
+  background-image: url(../img/Мандала.jpg);
+  background-repeat: no-repeat;
+  filter: alpha(Opacity=40);
+  opacity: 0.4;
+  z-index: -10;
+}
+
+.teacher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.teacher__title {
+  position: relative;
+  padding: 20px 5px;
+  min-width: 326px;
+}
+
+.teacher__title::before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 76px;
+  width: 300%;
+  top: 0;
+  right: 0;
+  background-color: #66cccc;
+  z-index: -1;
+}
+
+.teacher__title_r::before {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 76px;
+  width: 300%;
+  top: 0;
+  left: 0;
+  background-color: #66cccc;
+  z-index: -1;
+}
+
+.teacher__img {
+  display: none;
+  width: 250px;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  float: right;
+}
+
+.teacher__img_r {
+  float: left;
+}
+
+.teacher__img_active {
+  display: block;
+}
+
+.teacher-contents {
+  width: calc( 100% - 330px);
+  height: 426px;
+  background-color: #ebecec;
+  border: 2px solid #66cccc;
+  padding: 26px 40px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.teacher-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.teacher-tabs__item {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 28px;
+  color: #66cccc;
+  cursor: pointer;
+}
+
+.teacher-tabs__item_active, .teacher-tabs__item:hover {
+  color: #009999;
+  border-bottom: 2px solid #009999;
+}
+
+.teacher-tabs__item:first-child {
+  border-left: none;
+}
+
+.teacher-content {
+  margin: 0;
+  padding: 25px 10px;
+  list-style: none;
+}
+
+.teacher-content__item {
+  display: none;
+  font-size: 22px;
+  line-height: 24px;
+  height: 270px;
+  overflow-y: hidden;
+}
+
+.teacher-content__item_active {
+  display: block;
+}
+
+.teacher-content__text {
+  margin: 0;
+  margin-bottom: 15px;
+  padding-right: 10px;
+}
 /*# sourceMappingURL=style.css.map */
