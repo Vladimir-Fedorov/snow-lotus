@@ -2086,11 +2086,26 @@ body {
 
 .programs {
   padding: 50px 0;
+  position: relative;
 }
 
 .programs__title {
   text-align: center;
   background-color: #ff6600;
+}
+
+.programs::before {
+  content: '';
+  position: absolute;
+  top: -130%;
+  left: calc(-10% - 1000px);
+  width: 2300px;
+  height: 2300px;
+  background-image: url(../img/Мандала.jpg);
+  background-repeat: no-repeat;
+  filter: alpha(Opacity=40);
+  opacity: 0.4;
+  z-index: -10;
 }
 
 .teacherCours {
