@@ -32,6 +32,28 @@ tabsItemA.on('click', function (event) {
   $(this).addClass('aiengar-tabs__item_active');
 });
 
+var tabsItemTC = $(".teacherCours-tabs__item");
+var contentItemTC = $(".teacherCours-content__item");
+
+tabsItemTC.on('click', function (event) {
+  var activContent = $(this).attr('data-target');
+  contentItemTC.removeClass('teacherCours-content__item_active');
+  tabsItemTC.removeClass('teacherCours-tabs__item_active');
+  $(activContent).addClass('teacherCours-content__item_active');
+  $(this).addClass('teacherCours-tabs__item_active');
+});
+
+var tabsItemSM = $(".seminars-tabs__item");
+var contentItemSM = $(".seminars-content__item");
+
+tabsItemSM.on('click', function (event) {
+  var activContent = $(this).attr('data-target');
+  contentItemSM.removeClass('seminars-content__item_active');
+  tabsItemSM.removeClass('seminars-tabs__item_active');
+  $(activContent).addClass('seminars-content__item_active');
+  $(this).addClass('seminars-tabs__item_active');
+});
+
 
 var modalButton = $('[data-toggle="modal"]');
 var closeModalButton = $(".modal__close");

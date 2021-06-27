@@ -393,6 +393,25 @@ body {
   margin: 0;
 }
 
+.button {
+  border: 2px solid #fff;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ff6600;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   height: 8px;
@@ -896,11 +915,16 @@ body {
   position: relative;
 }
 
-.news-wrapper-text {
+.news-text {
   background-color: #ebecec;
   border-left: 2px solid #66cccc;
   border-bottom: 2px solid #66cccc;
   height: 350px;
+}
+
+.news-text_d {
+  border-left: 2px solid #009999;
+  border-bottom: 2px solid #009999;
 }
 
 .news-text {
@@ -928,6 +952,23 @@ body {
   top: 0;
   right: 0;
   background-color: #66cccc;
+  z-index: -1;
+}
+
+.news__title_d {
+  position: relative;
+  background-color: #009999;
+}
+
+.news__title_d::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 300%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #009999;
   z-index: -1;
 }
 
@@ -1110,25 +1151,6 @@ body {
   padding: 10px 20px;
   font-size: 32px;
   line-height: 36px;
-}
-
-.button {
-  border: 2px solid #fff;
-  border-radius: 8px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #ff6600;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: bold;
-  cursor: pointer;
 }
 
 .map {
@@ -1981,5 +2003,356 @@ body {
   margin: 0;
   margin-bottom: 15px;
   padding-right: 10px;
+}
+
+.description {
+  padding: 50px 0;
+}
+
+.description-wrapper {
+  display: -ms-grid;
+  display: grid;
+}
+
+.description-body {
+  padding: 49px 34px 39px;
+  border: 2px solid #66cccc;
+  border-bottom: none;
+  border-right: none;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  background-color: #ebecec;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.description-body__text {
+  font-size: 20px;
+  line-height: 22px;
+  text-align: justify;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.description__title {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: none;
+  padding-left: 33px;
+  background-color: #009999;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  position: relative;
+}
+
+.description__title_link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.description__title_link:hover {
+  color: #ff6600;
+}
+
+.description__title::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 300%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #009999;
+  z-index: -1;
+}
+
+.description__calendar {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1/4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+}
+
+.programs {
+  padding: 50px 0;
+}
+
+.programs__title {
+  text-align: center;
+  background-color: #ff6600;
+}
+
+.teacherCours {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.teacherCours__title {
+  position: relative;
+  border-radius: 2000px 10px;
+  background-color: #009999;
+}
+
+.teacherCours__title_m {
+  padding: 5px 65px;
+  max-width: 330px;
+}
+
+.teacherCours__title::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 300%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #66cccc;
+  z-index: -1;
+}
+
+.teacherCours-contents {
+  width: calc( 100% - 330px);
+  height: 350px;
+  background-color: #ebecec;
+  border: 2px solid #66cccc;
+  padding: 26px 40px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.teacherCours-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.teacherCours-tabs__item {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 28px;
+  color: #66cccc;
+  cursor: pointer;
+}
+
+.teacherCours-tabs__item_active, .teacherCours-tabs__item:hover {
+  color: #009999;
+  border-bottom: 2px solid #009999;
+}
+
+.teacherCours-tabs__item:first-child {
+  border-left: none;
+}
+
+.teacherCours-content {
+  margin: 0;
+  padding: 25px 10px;
+  list-style: none;
+}
+
+.teacherCours-content__item {
+  display: none;
+  font-size: 22px;
+  line-height: 24px;
+  height: 270px;
+  overflow-y: hidden;
+}
+
+.teacherCours-content__item_active {
+  display: block;
+}
+
+.teacherCours-content__text {
+  margin: 0;
+  margin-bottom: 15px;
+  padding-right: 10px;
+}
+
+.seminars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.seminars__title {
+  border-radius: 2000px 10px;
+  padding: 20px 63px;
+  background-color: #009999;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  position: relative;
+}
+
+.seminars__title::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 300%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #66cccc;
+  z-index: -1;
+}
+
+.seminars-contents {
+  width: calc( 100% - 330px);
+  height: 350px;
+  background-color: #ebecec;
+  border: 2px solid #66cccc;
+  padding: 26px 40px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.seminars-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.seminars-tabs__item {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 28px;
+  color: #66cccc;
+  cursor: pointer;
+}
+
+.seminars-tabs__item_active, .seminars-tabs__item:hover {
+  color: #009999;
+  border-bottom: 2px solid #009999;
+}
+
+.seminars-tabs__item:first-child {
+  border-left: none;
+}
+
+.seminars-content {
+  margin: 0;
+  padding: 25px 10px;
+  list-style: none;
+}
+
+.seminars-content__item {
+  display: none;
+  font-size: 22px;
+  line-height: 24px;
+  height: 270px;
+  overflow-y: hidden;
+}
+
+.seminars-content__item_active {
+  display: block;
+}
+
+.seminars-content__text {
+  margin: 0;
+  margin-bottom: 15px;
+  padding-right: 10px;
+}
+
+.newsletter {
+  position: relative;
+  padding: 59px 0 68px;
+  width: 100%;
+  background-image: url(../img/Подписка.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+}
+
+.newsletter::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(102, 204, 204, 0.5);
+}
+
+.newsletter-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.newsletter__title {
+  background-color: transparent;
+  max-width: 600px;
+  z-index: 1;
+}
+
+.newsletter-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 1;
+}
+
+.newsletter-form__input {
+  width: 400px;
+  padding: 8px 25px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 8px;
+  color: #ccc;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: normal;
+  outline: none;
+}
+
+.newsletter-form__button {
+  padding: 10px 20px;
+  font-size: 32px;
+  line-height: 36px;
 }
 /*# sourceMappingURL=style.css.map */

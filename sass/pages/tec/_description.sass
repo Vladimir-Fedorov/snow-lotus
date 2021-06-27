@@ -1,0 +1,47 @@
+.description
+  padding: 50px 0
+  &-wrapper
+    display: grid
+  &-body
+    padding: 49px 34px 39px
+    border: 2px solid #66cccc
+    border-bottom: none
+    border-right: none
+    grid-row: 2/3
+    grid-column: 1/2
+    background-color: #ebecec
+    object-fit: cover
+    &__text
+      font-size: 20px
+      line-height: 22px
+      text-align: justify
+      margin: 0
+      margin-bottom: 15px
+  &__title
+    font-size: 18px
+    line-height: 20px
+    font-weight: bold
+    text-transform: none
+    padding-left: 33px
+    background-color: #009999
+    grid-row: 3/4
+    grid-column: 1/2
+    position: relative
+    &_link
+      color: inherit
+      text-decoration: none
+      &:hover
+        color: #ff6600
+    &::before
+      content: ''
+      position: absolute
+      display: block
+      width: 300%
+      top: 0
+      bottom: 0
+      right: 0
+      background-color: #009999
+      z-index: -1
+  &__calendar
+    grid-row: 1/4
+    grid-column: 2/3

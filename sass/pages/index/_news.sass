@@ -5,11 +5,14 @@
     justify-content: center
     align-items: center
     position: relative
-    &-text
-      background-color: #ebecec
-      border-left: 2px solid #66cccc
-      border-bottom: 2px solid #66cccc
-      height: 350px
+  &-text
+    background-color: #ebecec
+    border-left: 2px solid #66cccc
+    border-bottom: 2px solid #66cccc
+    height: 350px
+    &_d
+      border-left: 2px solid #009999
+      border-bottom: 2px solid #009999
   &-text
     width: 300px
     height: 270px
@@ -30,6 +33,19 @@
       right: 0
       background-color: #66cccc
       z-index: -1
+    &_d
+      position: relative
+      background-color: #009999
+      &::before
+        content: ''
+        position: absolute
+        display: block
+        width: 300%
+        top: 0
+        bottom: 0
+        right: 0
+        background-color: #009999
+        z-index: -1
   &__text
     max-width: 300px
     max-height: 192px
